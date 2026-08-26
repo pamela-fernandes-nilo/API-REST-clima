@@ -1,4 +1,4 @@
-package br.com.clima_api.application;
+package br.com.clima_api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ClimaApiApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ClimaApiApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(ClimaApiApplication.class, args);
+    }
 }
